@@ -3,9 +3,11 @@ A very basic node web app that uses mongoDb. This example demonstrate a fully fu
 
 ## Local setup
 1. Install all the node packages.
+
 ``` npm install ```
 
 2. Spin up docker containers for mongoDb and mongo-express (Web-based MongoDB admin interface).
+
 ``` docker-compose up --build ```
 
 3. Connect to mongo client with root access to admin db
