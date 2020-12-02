@@ -1,5 +1,5 @@
 # node-mongo-app
-A very basic node web app that uses mongoDb. This example demonstrate a fully functional MVC driven solution. 
+A very basic node web app that uses mongoDb. This example demonstrates a fully functional MVC driven solution. 
 
 ## Local setup
 1. Install all the node packages.
