@@ -17,6 +17,7 @@ mongo -u root -p example --authenticationDatabase admin
 ```
 
 4. Create a database
+
 ``` use mydatabase ```
 
 5. Create a user and assign read write role to mydatabase
