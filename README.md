@@ -1,4 +1,4 @@
-# node-mongo-app
+# node-mongo-MVC-app
 A very basic node web app that uses mongoDb. This example demonstrates a fully functional MVC driven solution. 
 
 ## Local setup
