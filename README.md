@@ -9,8 +9,10 @@ A very basic node web app that uses mongoDb. This example demonstrate a fully fu
 ``` docker-compose up --build ```
 
 3. Connect to mongo client with root access to admin db
-``` docker exec -it mongodb bash 
-	mongo -u root -p example --authenticationDatabase admin ```
+``` 
+docker exec -it mongodb bash 
+mongo -u root -p example --authenticationDatabase admin 
+```
 
 4. Create a database
 ``` use mydatabase ```
