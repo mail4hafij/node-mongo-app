@@ -1,0 +1,21 @@
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+    <h1>Blog</h1>
+
+    <form action="/add" method="POST">
+      Title <br />
+      <input type="text" name="title" /><br />
+      Description: <br />
+      <textarea cols="50" rows="5" name="description"></textarea><br />
+      <button type="submit">Add</button>
+    </form>
+
+    <% if(blogs.length > 0) { blogs.forEach(blog => { %>
+    <h3><%= blog.title %></h3>
+    <p><%= blog.description %> <a href="/delete/<%=blog._id %>">Delete</a></p>
+    <% }); } %>
+  </body>
+  <%- include('./partials/footer.ejs') %>
+</html>
