@@ -15,6 +15,7 @@ A very basic node web app that uses mongoDb. This example demonstrates a fully f
 docker exec -it mongodb bash 
 mongo -u root -p example --authenticationDatabase admin 
 ```
+For quick mongo shell command references visit https://docs.mongodb.com/manual/reference/mongo-shell/ 
 
 4. Create a database
 
